@@ -3,6 +3,7 @@ require('./main.scss');
 
 const angular = require('angular');
 
+
 angular.module('demoApp').directive('appMain', function() {
   return {
     restrict: 'E',

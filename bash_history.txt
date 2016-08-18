@@ -1,0 +1,500 @@
+   64  rm travis.yml
+   65  git status
+   66  git reset HEAD...
+   67  git status
+   68  git rm test
+   69  git rm test.js
+   70  git rm travis.yml
+   71  git status
+   72  git diff
+   73  git status
+   74  git checkout ../week_4/project_format/package.json 
+   75  git status
+   76  cd ~/codefellows/401/students/
+   77  ls
+   78  mkdir apitest
+   79  cd apitest/
+   80  git clone git@github.com:rebeccapeltz/one-minute-away-api.git
+   81  ls
+   82  cd one-minute-away-api/
+   83  npm install
+   84  mkdir db
+   85  pwd
+   86  atom .
+   87  ti status
+   88  git status
+   89  git add .
+   90  git commit -m"mod to force build on travis"
+   91  git push
+   92  travis login
+   93  travis enable
+   94  git status
+   95  git add .
+   96  git commit -m"mod to force build on travis"
+   97  git push
+   98  travis open
+   99  mocha
+  100  pwd
+  101  cd ~/codefellows/401/DSA/LinkedList/
+  102  ls
+  103  atom .
+  104  git status
+  105  cd ~/codefellows/401/inclass/
+  106  ls
+  107  cd seattle-javascript-401d8/
+  108  git pull
+  109  ls
+  110  cd week_3
+  111  ls
+  112  cd jul_25_router_test/
+  113  ls
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd week_3
+  120  atom .
+  121  ls
+  122  git pull
+  123  atom .
+  124  ls
+  125  atom .
+  126  git status
+  127  git status
+  128  ls
+  129  git pull
+  130  atom .
+  131  git status
+  132  pwd
+  133  git status
+  134  git pull
+  135  ls
+  136  cd jul_28_data_and_two_resource_api/
+  137  ls
+  138  ls
+  139  pwd
+  140  data .
+  141  atom .
+  142  pwd
+  143  cd ..
+  144  ls
+  145  cd ..
+  146  l
+  147  ls
+  148  git pull
+  149  git status
+  150  pwd
+  151  cd ../../../../journal/
+  152  ls
+  153  git status
+  154  git add .
+  155  git commit -m "machine change"
+  156  git push
+  157  git statu
+  158  git status
+  159  ls
+  160  git diff
+  161  git add w1
+  162  git status
+  163  git commit -m"machine change 2"
+  164  git sttus
+  165  git status
+  166  ls
+  167  cd w1
+  168  ls
+  169  git status
+  170  git add .
+  171  ls
+  172  git status
+  173  git add .
+  174  git commit -m"update after machine change"
+  175  git push
+  176  git push --set-upstream origin master
+  177  git status
+  178  ls
+  179  cd ..
+  180  ls
+  181  atom .
+  182  ls
+  183  git status
+  184  git remote add origin git@github.com:rebeccapeltz/401Journal.git
+  185  git status
+  186  git add .
+  187  git commit -m"rename mds"
+  188  git status
+  189  git push
+  190  git status
+  191  ls
+  192  cd w3
+  193  touch d11.md
+  194  touch d12.md
+  195  touch d13.md
+  196  touch d14.md
+  197  touch d15.md
+  198  git status
+  199  cd ../
+  200  ls
+  201  git status
+  202  git add .
+  203  git commit -m"add w3"
+  204  git push
+  205  atom .
+  206  git status
+  207  git add .
+  208  git status
+  209  git commit -m"add currying"
+  210  git push
+  211  ls
+  212  atom .
+  213  git status
+  214  git add .
+  215  git commit -m"apperror error handling and body parser"
+  216  git push
+  217  pwd
+  218  atom .
+  219  pwd
+  220  cp ~/codefellows/401/inclass/seattle-javascript-401d8/week_3/jul_27_mongo_rest/*.md w3/d3
+  221  cd w3/d3
+  222  cd w3/d3
+  223  ls w3
+  224  cp ~/codefellows/401/inclass/seattle-javascript-401d8/week_3/jul_27_mongo_rest/*.md w3
+  225  pwd
+  226  ls
+  227  atom .
+  228  wpd
+  229  pwd
+  230  cp ~/Downloads/easy.js.bak w4/
+  231  git status
+  232  pwd
+  233  more assignments.md 
+  234  atom .
+  235  git satus
+  236  git status
+  237  git add .
+  238  git commit -m"auth"
+  239  git push
+  240  git add .
+  241  git commit -m"auth test"
+  242  git push
+  243  atom .
+  244  git status
+  245  git add .
+  246  git commit -m"fix auth router"
+  247  git push
+  248  pwd
+  249  cd ../
+  250  ls
+  251  cd ../../
+  252  l
+  253  ls
+  254  cd ../
+  255  ls
+  256  cd inclass/sea-401d5-javascript/
+  257  ls
+  258  ls week_4
+  259  atom week_4/deployment/
+  260  mkdir ../../nodetest/deployment
+  261  cp week_4/deployment/ ../../nodetest/.
+  262  cp -r week_4/deployment/ ../../nodetest/.
+  263  cp -r week_4/deployment ../../nodetest/deployment
+  264  ls ../../nodetest/deployment/
+  265  ls ../../nodetest/deployment/*
+  266  ls -la ../../nodetest/deployment/*
+  267  pwd
+  268  pwd
+  269  pwd
+  270  git status
+  271  cd ../seattle-javascript-401d8/week_4/
+  272  atom .
+  273  cd ../../inclass/
+  274  cd week_2
+  275  ls
+  276  cd seattle-javascript-401d8/week_2
+  277  ls
+  278  atom jul_20_chai_http/
+  279  ls
+  280  cd ~/codefellows/401/nodetest/
+  281  git status
+  282  pwd
+  283  ls
+  284  ls deployment/
+  285  ls 
+  286  ls -la
+  287  git status
+  288  ls rest
+  289  cp -r ~/codefellows/401/inclass/seattle-javascript-401d8/week_3/jul_27_mongo_rest/* rest/
+  290  git status
+  291  git checkout README.md
+  292  git status
+  293  git add .
+  294  atom rest/
+  295  atom deployment/
+  296  git status
+  297  git add .
+  298  git status
+  299  git commit -m"add deployment and update rest"
+  300  git push
+  301  pwd
+  302  ls deployment/
+  303  cd ~/tutorials/
+  304  ls
+  305  git@github.com:rebeccapeltz/node-project.git
+  306  git clone git@github.com:rebeccapeltz/node-project.git
+  307  cd node-project/
+  308  ls
+  309  git status
+  310  git status
+  311  heroku login rebeccapeltz@gmail.com
+  312  heroku login
+  313  node -v
+  314  npm =v
+  315  npm -v
+  316  git --version
+  317  git status
+  318  atom .
+  319  heroku create becky-401-8
+  320  git push heroku master
+  321  heroku ps:scale web=1
+  322  heroku open
+  323  heroku logs tail
+  324  heroku logs --tail
+  325  heroku ps
+  326  heroku local
+  327  npm install
+  328  heroku local
+  329  ls
+  330  mkdir db
+  331  heroku local
+  332  heroku local
+  333  heroku local
+  334  ls
+  335  pwd
+  336  git status
+  337  git add .
+  338  git commit -m "add route for get 1"
+  339  git push
+  340  git push heroku master
+  341  git push origin master
+  342  git status
+  343  git remote -v
+  344  curl localhost:5000 -X POST -d '{"flavor":"mint","scoops":2,"vessel":"cup"}'
+  345  heroku open local
+  346  herkoku local
+  347  heroku local
+  348  pwd
+  349  pwd
+  350  cd ../
+  351  ls
+  352  mkdir auth-project
+  353  cd auth-project/
+  354  npm init
+  355  npm init -y
+  356  npm i -S bcrypt body-parser express jsonwebtoken mongoose
+  357  atom .
+  358  cp ~/Downloads/easy.js.bak .
+  359  mongod --db-path db
+  360  mongod --dbpath db
+  361  mongod --dbpath db
+  362  git status
+  363  git status
+  364  mongod --dbpath db
+  365  mongo
+  366  npm start
+  367  node index
+  368  node index
+  369  node index
+  370  node index
+  371  git status
+  372  git add .
+  373  git commit -m"edit md"
+  374  git push
+  375  git add .
+  376  git commit -m"edit md"
+  377  git push
+  378  git status
+  379  git status
+  380  git add .
+  381  git commit -m"testing yml"
+  382  git push
+  383  travis lint
+  384  mongo -v
+  385  mongo --version
+  386  git status
+  387  git add .
+  388  git commit -m"testing crypto"
+  389  git push
+  390  travis lint
+  391  travis open
+  392  git status
+  393  git add .
+  394  git commit "yml testing"
+  395  git push
+  396  mocha
+  397  git status
+  398  git commit -m"revert crypto"
+  399  git push
+  400  git push heroku
+  401  git status
+  402  git add .
+  403  node index.js 
+  404  git status
+  405  git commit -m"modify procfile to run index"
+  406  git push
+  407  git push heroku
+  408  git status
+  409  git add .
+  410  git commit -m"add env to yml"
+  411  git push
+  412  git status
+  413  git add .
+  414  git commit -m"add crypto"
+  415  git push
+  416  mocha
+  417  mocha
+  418  mocha
+  419  mocha
+  420  mocha
+  421  mocha debug
+  422  mocha
+  423  mocha
+  424  mocha
+  425  mocha
+  426  mocha
+  427  git status
+  428  git commit -"fix put/test"
+  429  git commit -m"fix put/test"
+  430  git status
+  431  git add .
+  432  git commit -m"fix put/test"
+  433  git push
+  434  ruby --version
+  435  ruby -v
+  436  mocha
+  437  git add .
+  438  git commit -m"fix err handling"
+  439  git push
+  440  heroku apps --help
+  441  ifconfig
+  442  ping 172.16.15.255
+  443  curl  172.16.15.255:8080
+  444  atom .
+  445  pwd
+  446  heroku config
+  447  git status
+  448  ls
+  449  mongod --dbpath db
+  450  node
+  451  pwd
+  452  heroku --help
+  453  travis open
+  454  ls
+  455  ls -la
+  456  eslint *
+  457  npm lint
+  458  npm run lint
+  459  npm run mocha
+  460  npm run mocha
+  461  npm run test
+  462  pwd
+  463  git status
+  464  git add .
+  465  git commit -m"small change"
+  466  git push
+  467  travis open
+  468  travis login
+  469  sudo gem install travis
+  470  sudo gem install travis
+  471  gulp
+  472  ls
+  473  gulp
+  474  npm install -g gulp
+  475  gulp
+  476  gulp
+  477  gulp lint
+  478  eslint *
+  479  gulp test
+  480  mocha
+  481  gulp
+  482  gulp
+  483  gulp
+  484  mocha
+  485  mocha test/icecream_test.js 
+  486  mocha test/icecream_test.js 
+  487  mocha test/icecream_test.js 
+  488  mocha test/milkshake_test.js 
+  489  mocha test/milkshake_test.js 
+  490  mocha
+  491  gulp test
+  492  git status
+  493  git add .
+  494  git commit -m"set up tests to run on different ports"
+  495  git push
+  496  pwd
+  497  pwd
+  498  s
+  499  ls
+  500  mongod
+  501  webapp
+  502  webpack
+  503  webpack
+  504  webpack
+  505  webpack
+  506  webpack
+  507  webpack
+  508  webpack
+  509  webpack
+  510  webpack
+  511  webpack
+  512  webpack
+  513  webpack
+  514  webpack
+  515  webpack
+  516  webpack
+  517  webpack --progress --colors --watch
+  518  webpack --progress --colors --watch
+  519  webpack --progress --colors --watch
+  520  webpack --progress --colors --watch
+  521  pwd
+  522  ls ../
+  523  npm -v
+  524  pwd
+  525  npm install --save webpack file-loader webpack-dev-server
+  526  code .
+  527  tree .
+  528  tree build
+  529  npm -i live-server
+  530  npm i -g live-server
+  531  npm i --save node-sass sass-loading css-loader style-loader
+  532  npm i --save node-sass sass-loader css-loader style-loader
+  533  webpack
+  534  http-server
+  535  live-server
+  536  npm run watch
+  537  ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot
+  538  npm run watch
+  539  npm run watch
+  540  webpack
+  541  webpack
+  542  npm start watch
+  543  npm start watch
+  544  webpack
+  545  npm start watch
+  546  webpack
+  547  npm start watch
+  548  webpack
+  549  webpack
+  550  npm start watch
+  551  npm start watch
+  552  webpack
+  553  webpack
+  554  ls
+  555  tree .
+  556  tree app
+  557  pwd
+  558  history |grep webpack
+  559  npm install --save-dev karma karma-webpack karma-babel-preprocessor karma-chrome-launcher karma-jsamine jasmine-core
+  560  npm install --save-dev karma karma-webpack karma-babel-preprocessor karma-chrome-launcher karma-jasmine jasmine-core
+  561  npm install i - g karma-cli
+  562  history
+  563  history >> bash_history

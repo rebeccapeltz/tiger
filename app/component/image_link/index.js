@@ -3,6 +3,7 @@ require('./image_link.scss');
 
 const angular = require('angular');
 
+
 angular.module('demoApp').directive('imageLink', function() {
   return {
     restrict: 'A',

@@ -17,21 +17,25 @@
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="">Bunny Widget</a>
+          <a class="navbar-brand" href="#/">Bunny Widget</a>
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#fullsize"><i class="fa fa-picture-o"></i> Fullsize</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <!--<app-main></app-main>-->
-  <div image-link> </div>
-  <div thumbnail> </div>
-  <fullsize></fullsize>
 
+  <main ng-view>
+  </main>
+  <!--<app-main></app-main>-->
+  <!--<div image-link> </div>
+  <div thumbnail> </div>
+  <fullsize></fullsize>-->
+  <hr>
   <div>For this assignment, build three different display directives for an image url:
     <ul>
       <li> The first directive should display the title of the image, the link (not the actual image), and short description.</li>
