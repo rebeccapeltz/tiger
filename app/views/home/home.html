@@ -1,9 +1,8 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div ng-repeat="img in hc.images" class="col-xs-1">
-      <a href="#/fullsize/{{img.id}}" class="thumbnail">
-        <img ng-src="{{img.url}}" height="100" width="100" />
-      </a>
+    <!--bootstrap tip - to center set an offset equal to half of the remaining size of the row-->
+    <div class="list-group col-md-6  col-md-offset-3">
+      <a ng-repeat="img in hc.images" href="#/fullsize/{{img.id}}" class="list-group-item">{{img.description}}</a>
     </div>
   </div>
 </div>
