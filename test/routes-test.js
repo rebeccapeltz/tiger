@@ -1,4 +1,6 @@
 'use strict';
+/*global angular angular:true*/
+/*eslint no-undef: "error"*/
 describe('route tests', () => {
 
   beforeEach(() => {

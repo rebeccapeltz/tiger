@@ -1,9 +1,11 @@
 'use strict';
+/*global angular angular:true*/
+/*eslint no-undef: "error"*/
 
 describe('testing controllers used in routing', function() {
   beforeEach(() => {
     angular.mock.module('demoApp');
-    angular.mock.inject(($controller, $rootScope) => {
+    angular.mock.inject(($controller) => {
       this.homeController = new $controller('HomeController');
       this.fullsizeController = new $controller('FullsizeController');
     });

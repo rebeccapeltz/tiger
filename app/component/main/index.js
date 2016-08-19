@@ -25,4 +25,4 @@ angular.module('demoApp').directive('appMain', function() {
 
 function MainController() {
   this.example = 'hello world';
-};
+}
