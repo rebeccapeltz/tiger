@@ -1,7 +1,6 @@
 'use strict';
 
 describe('testing controllers used in routing', function() {
-  //let homeController, fullsizeController;
   beforeEach(() => {
     angular.mock.module('demoApp');
     angular.mock.inject(($controller, $rootScope) => {
